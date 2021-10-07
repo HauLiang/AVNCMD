@@ -32,7 +32,7 @@ iniIF = [28*ones(1,length(t));48*ones(1,length(t))];  % initial IFs
          
 % Start AVNCMD algorithm
 tic;
-[estIF, estIA, estMode] = BVNCMD(g, fs, iniIF, beta, tol);
+[estIF, estIA, estMode] = AVNCMD(g, fs, iniIF, beta, tol);
 toc;
 
 %% Relative errors of the estimated modes and IFs
