@@ -29,7 +29,7 @@ g = g_1t + g_2t;
 %% AVNCMD
 beta = 1e-8;  % filter parameter
 tol = 1e-5;   % tolerance of convergence criterion
-iniIF = [linspace(100,400,length(t)); linspace(400,100,length(t))];  % initial IFs 
+iniIF = [100+300*t;400-300*t];  % initial IFs 
 
 iniIF1 = [100+300*t;400-300*t];
 % Start AVNCMD algorithm
