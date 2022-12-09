@@ -1,6 +1,6 @@
 function [estIF, estIA, estMode] = AVNCMD(g, fs, iniIF, beta, tol)
 %
-% This code implements the AVNCMD algorithm 
+% This code implements the AVNCMD algorithm (https://github.com/HauLiang/AVNCMD)
 %
 % This code is based on the VNCMD code available from http://cn.mathworks.com/matlabcentral/fileexchange/64292 from the following paper
 % [1] Chen S, Dong X, Peng Z, et al. Nonlinear chirp mode decomposition: A variational method. IEEE Transactions on Signal Processing, 2017.
